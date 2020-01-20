@@ -14,6 +14,6 @@ steps:
   displayName: 'build tools install'
 
 - script: |
-    gcc db.c -o db
-    echo $(name)
+    gcc $(name) -o db
+    echo Build Complete.
   displayName: 'Run a multi-line script'
