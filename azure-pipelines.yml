@@ -15,5 +15,5 @@ steps:
 
 - script: |
     gcc db.c -o db
-    echo $name
+    echo $(name)
   displayName: 'Run a multi-line script'
