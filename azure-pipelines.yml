@@ -11,9 +11,9 @@ pool:
 
 steps:
 - script: sudo apt-get install build-essential
-  displayName: 'build tools install'
+  displayName: 'Build Tools Installation'
 
 - script: |
     gcc $(name) -o db
     echo Build Complete.
-  displayName: 'Run a multi-line script'
+  displayName: 'Program Build'
